@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: garamond; 
+}
+
+
+table {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+th {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#machine {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: red;
+    width: 50%;
+    height: 280px;
+    border: 10px solid blue;
+
+
+}
+
+#makeword {
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    outline: 10px transparent;
+    outline-color: rgb(143, 38, 90);
+}
+
+#logo{
+    width: 500px;
+}
+
+#me:hover{
+    color: green;
+}
